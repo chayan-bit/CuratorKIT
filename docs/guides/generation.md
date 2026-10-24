@@ -113,6 +113,8 @@ CuratorConfig(
 )
 ```
 
+For an instruction row, only its `input` is used as the source passage; its `output` is the gold answer and is never shown to the model being sampled.
+
 **Output fields:** `instruction=prompt`, `input=source_text`, `responses=[...]`, `reward_scores=[...]`
 
 ---
